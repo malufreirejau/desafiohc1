@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.beer {
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.beer img {
+   
+    height: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f7df0b;
+}
+
+body {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.kits {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kits img {    
+    height: 150px;     
+    
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+    border-radius: 6px;
+    border-color: #f7df0b;    
+    background-color: #000;
+    color: #f7df0b;
+    font-size: 8px;
+    padding: 3px;
+}
+
+footer {
+    font-size: 8px;
+    margin-bottom: 0px;
+    color: #f7df0b;
+}
